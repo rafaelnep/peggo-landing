@@ -46,14 +46,12 @@ export default function Banner() {
           <Heading as="h1" variant="heroPrimary">
             Vá mais longe com Peggo
           </Heading>
-          <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+          <Text as="p" variant="heroSecondary" style={{ lineHeight: "2rem" }}>
+            Seja para contratar serviços logísticos ou para atender demandas de pedidos, Peggo é o app ideal.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+              Faça Download em Breve
             </Button>
             <>
               <ModalVideo
@@ -67,10 +65,11 @@ export default function Banner() {
                 aria-label="Watch Video"
                 onClick={handleClick}
               >
-                <FaPlayCircle /> Watch Video
+                <FaPlayCircle /> Assistir Vídeo
               </Button>
             </>
           </Flex>
+          {/*
           <Flex sx={styles.sponsorBox}>
             <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
@@ -81,6 +80,7 @@ export default function Banner() {
               ))}
             </Box>
           </Flex>
+          */}
         </Box>
 
         <Box sx={styles.banner.imageBox}>

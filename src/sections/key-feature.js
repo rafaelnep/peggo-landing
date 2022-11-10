@@ -12,25 +12,25 @@ const data = [
     id: 1,
     imgSrc: Vector,
     altText: 'Vector',
-    title: 'Vector Editing',
+    title: 'Rotas Inteligentes',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Encontre lugares e crie rotas com facilidade através dos endereços do Google Maps.',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    altText: 'Monitoramento',
+    title: 'Cuidade e Monitoramento',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Quando um prestador se conecta ao pedido, todos os eventos são registrados em tempo real.',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Quality',
-    title: 'Quality & Short-period',
+    altText: 'Rapidez',
+    title: 'Entregas Eficientes',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Os prestadores tem acesso instantâneo ao pedido para tornar os pedidos muito mais rápidos.',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Funcionalidades Exclusivas"
+          title="Desenvolvido para transformar a logística"
         />
 
         <Grid sx={styles.grid}>
