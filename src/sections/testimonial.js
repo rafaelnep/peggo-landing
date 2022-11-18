@@ -13,41 +13,41 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'É diferente de todos os apps.',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Era é o que precisava pra consiliar entregas pessoais e da empresa no mesmo lugar. É muito fácil de usar. ',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
+    name: 'Fernanda',
     designation: '@denny.hil',
     review: 4,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Várias entregas em um mesmo pedido.',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'É muito intuitivo criar pedidos. Especialmente, poder criar rotas com vários destinos em um único pedido.',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
+    name: 'Rodrigo',
     designation: '@denny.hil',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Layout tão simples e tão bem feito.',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Parece que o app tem pouca coisa, mas conforme a gente usa, as cosias vão aparecendo e tudo faz sentido.',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
+    name: 'Paulo',
     designation: '@denny.hil',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    title: 'A maior variedade de modadlidades.',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'É impressionante porque dá pra pedir quase qualquer serviço loigístico dentro dessa plataforma. Até mudança.',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
+    name: 'Rafael',
     designation: '@denny.hil',
     review: 4,
   },
@@ -80,7 +80,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container>
-        <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
+        <SectionHeader slogan="Testimonial" title="Quem usa, já está amando." />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

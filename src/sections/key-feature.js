@@ -20,7 +20,7 @@ const data = [
     id: 2,
     imgSrc: Editing,
     altText: 'Monitoramento',
-    title: 'Cuidade e Monitoramento',
+    title: 'Cuidado e Monitoramento',
     text:
       'Quando um prestador se conecta ao pedido, todos os eventos são registrados em tempo real.',
   },
