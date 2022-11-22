@@ -43,7 +43,7 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
+          <Heading as="h1" variant="heroPrimary" style={{ fontWeight: 800 }}>
             Vá mais longe com Peggo
           </Heading>
           <Text as="p" variant="heroSecondary" style={{ lineHeight: "2rem" }}>
@@ -51,7 +51,7 @@ export default function Banner() {
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Faça Download em Breve
+              Em breve para Android e iOS
             </Button>
             <>
               <ModalVideo
@@ -109,19 +109,19 @@ const styles = {
       width: ['100%', null, '85%', '55%', '50%', '55%'],
       display: 'flex',
       flexDirection: 'column',
-      alignItems: 'flex-start',
+      alignItems: 'flex-center',
       flexShrink: 0,
       pt: [0, null, null, null, null, null, 5, 7],
     },
     imageBox: {
       display: ['none', null, null, 'block'],
       justifyContent: 'center',
-      ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
-      mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
+      ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-370px'],
+      mr: [0, null, null, '-145px', '-260px', '-180px', '-220px', '-290px'],
       mt: [0, null, null, '40px', 4, 7, 0],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],
       overflow: 'hidden',
-      textAlign: 'right',
+      textAlign: 'center',
       width: '100%',
     },
   },

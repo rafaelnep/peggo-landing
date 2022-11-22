@@ -7,69 +7,69 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Signup Now',
+    name: 'Por distância',
+    description: 'Para poucos pedidos',
+    buttonText: 'Baixe o app',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Número ilimitado de pedidos. Faça quantos quiser, em qualquer dia.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Todas as funcionalidades disponíveis pelo aplicativo para Android e iOS.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Cálculo de preço em tempo real, enquanto informa origem e destino.',
         isAvailable: true,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Plano de cobrança personalizado, de acordo com a demanda de entregas.',
         isAvailable: false,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Pagamento por fatura e valor fixo por entrega, facilitando a contabilidade.',
         isAvailable: false,
       },
     ],
   },
   {
-    header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$29.99/',
-    buttonText: 'Signup Now',
+    header: 'Para empresas',
+    name: 'Por volume',
+    description: 'Para entregas frequentes',
+    priceWithUnit: 'R$ 6,00',
+    buttonText: 'Comece agora',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Número ilimitado de pedidos. Faça quantos quiser, em qualquer dia.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Todas as funcionalidades disponíveis pelo aplicativo para Android e iOS.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Cálculo de preço em tempo real, enquanto informa origem e destino.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Plano de cobrança personalizado, de acordo com a demanda de entregas.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Pagamento por fatura e valor fixo por entrega, facilitando a contabilidade.',
         isAvailable: true,
       },
     ],
@@ -80,8 +80,8 @@ export default function Package() {
     <section id="pricing" sx={styles.pricing}>
       <Container>
         <SectionHeader
-          title="Let’s see how it works"
-          slogan="Whats the function"
+          title="Para pedidos esporádicos ou frequentes"
+          slogan="Cobrança dinâmica"
           isWhite={true}
         />
         <Flex

@@ -80,7 +80,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container>
-        <SectionHeader slogan="Testimonial" title="Quem usa, já está amando." />
+        <SectionHeader slogan="Depoimentos" title="Quem usa, já está amando." />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

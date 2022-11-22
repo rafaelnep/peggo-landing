@@ -35,10 +35,9 @@ export default function PriceCard({
           </Box>
           {header && (
             <Text className="package__price" sx={styles.price}>
-              <span>Starting from</span>
+              <span>A partir de</span>
               <div className="price">
                 {priceWithUnit}
-                <sub>mo</sub>
               </div>
             </Text>
           )}

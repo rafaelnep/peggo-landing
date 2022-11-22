@@ -37,13 +37,22 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Get Started"
-          >
-            Get Started
+          <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+            <Button
+              className="donate__btn"
+              variant="secondary"
+              aria-label="Get Started"
+            >
+              Começe agora
           </Button>
+          </Link>
 
           <MobileDrawer />
         </Container>
@@ -104,7 +113,8 @@ const styles = {
   container: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    // justifyContent: 'space-between',
+    justifyContent: 'flex-end',
   },
   nav: {
     mx: 'auto',

@@ -8,11 +8,11 @@ import PaymentThumb from 'assets/paymentThumb.png';
 import PaymentPattern from 'assets/payment-pattern.png';
 
 const data = {
-  subTitle: 'PAYMENT SECURITY',
-  title: 'Secure Payment Transaction System with #1 Ranking',
+  subTitle: 'CONEXÕES RÁPIDAS',
+  title: 'Solicitações em tempo real.',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
-  btnName: 'Learn More',
+    'Ao confirmar seu pedido, nós os buscaremos o melhor e mais próximo profissional disponível, para atender sua demando com prontidão e segurança.',
+  btnName: 'Começar agora',
   btnURL: '#',
 };
 

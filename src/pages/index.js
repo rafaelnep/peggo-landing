@@ -22,15 +22,15 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Peggo - Logística Inteligente" />
           <Banner />
-          <CoreFeature />
           <KeyFeature />
+          <CoreFeature />
           <TestimonialCard />
           <Package />
+          <SecurePayment />
           {/*
+          <WorkFlow />
           <Feature />
           <PartnerSection />
-          <WorkFlow />
-          <SecurePayment />
           <Faq />
           */}
         </Layout>
