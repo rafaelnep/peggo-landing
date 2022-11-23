@@ -29,11 +29,11 @@ export default [
     header: 'Contato',
     items: [
       {
-        path: '/',
+        path: 'tel:+559821088000',
         label: 'Telefone: (98) 2108-8000',
       },
       {
-        path: '/',
+        path: 'mailto:contato@peggo.com.br',
         label: 'Email: contato@peggo.com.br',
       },
     ],
@@ -42,12 +42,8 @@ export default [
     header: 'Redes Sociais',
     items: [
       {
-        path: '/',
+        path: 'https://instagram.com/peggoapp',
         label: 'Siga @peggoapp no Instagram',
-      },
-      {
-        path: '/',
-        label: 'Twitter: @peggoapp',
       },
     ],
   },
