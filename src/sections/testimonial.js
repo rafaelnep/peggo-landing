@@ -18,7 +18,7 @@ const data = [
       'Era é o que precisava pra consiliar entregas pessoais e da empresa no mesmo lugar. É muito fácil de usar. ',
     avatar: Avatar1,
     name: 'Fernanda',
-    designation: '@denny.hil',
+    designation: '@fer.denny',
     review: 4,
   },
   {
@@ -28,7 +28,7 @@ const data = [
       'É muito intuitivo criar pedidos. Especialmente, poder criar rotas com vários destinos em um único pedido.',
     avatar: Avatar2,
     name: 'Rodrigo',
-    designation: '@denny.hil',
+    designation: '@rodrigoolt',
     review: 5,
   },
   {
@@ -38,7 +38,7 @@ const data = [
       'Parece que o app tem pouca coisa, mas conforme a gente usa, as cosias vão aparecendo e tudo faz sentido.',
     avatar: Avatar3,
     name: 'Paulo',
-    designation: '@denny.hil',
+    designation: '@paulocampos12',
     review: 5,
   },
   {
@@ -48,7 +48,7 @@ const data = [
       'É impressionante porque dá pra pedir quase qualquer serviço loigístico dentro dessa plataforma. Até mudança.',
     avatar: Avatar4,
     name: 'Rafael',
-    designation: '@denny.hil',
+    designation: '@rafaeldep7',
     review: 4,
   },
 ];

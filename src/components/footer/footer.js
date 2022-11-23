@@ -25,10 +25,9 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
-        </Link>
+        2022 &copy; Todos os direitos reservados. PEGGO - SERVICOS - LOGISTICA E TECNOLOGIA LTDA
+        <br />
+        CNPJ 40.187.454/0001-38 | Av. Guajajaras, 90, Tirirical,  - São Luís - MA
       </Text>
     </footer>
   );

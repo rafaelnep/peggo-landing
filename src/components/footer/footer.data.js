@@ -1,97 +1,53 @@
 export default [
   {
-    header: 'About Us',
+    header: 'Sobre',
     items: [
       {
-        path: '/',
-        label: 'Support Center',
+        path: '/about',
+        label: 'A Peggo',
       },
       {
-        path: '/',
-        label: 'Customer Support',
-      },
-      {
-        path: '/',
-        label: 'About Us',
-      },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
-      {
-        path: '/',
-        label: 'Popular Campaign',
+        path: '/tech',
+        label: 'Tecnologia',
       },
     ],
   },
   {
-    header: 'Our Information',
+    header: 'Política',
     items: [
       {
-        path: '/',
-        label: 'Return Policy ',
+        path: '/privacity',
+        label: 'Privacidade',
       },
       {
-        path: '/',
-        label: 'Privacy Policy',
-      },
-      {
-        path: '/',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '/',
-        label: 'Site Map',
-      },
-      {
-        path: '/',
-        label: 'Store Hours',
+        path: '/terms',
+        label: 'Termos de Uso',
       },
     ],
   },
   {
-    header: 'My Account',
+    header: 'Contato',
     items: [
       {
         path: '/',
-        label: 'Press inquiries',
+        label: 'Telefone: (98) 2108-8000',
       },
       {
         path: '/',
-        label: 'Social media ',
-      },
-      {
-        path: '/',
-        label: 'directories',
-      },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '/',
-        label: 'Permissions',
+        label: 'Email: contato@peggo.com.br',
       },
     ],
   },
   {
-    header: 'Policy',
+    header: 'Redes Sociais',
     items: [
       {
         path: '/',
-        label: 'Application security',
+        label: 'Siga @peggoapp no Instagram',
       },
       {
         path: '/',
-        label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
+        label: 'Twitter: @peggoapp',
       },
     ],
   },

@@ -12,6 +12,9 @@ import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
 import client3 from 'assets/sponsor/dropbox.svg';
 
+import AndroidBadge from 'assets/pt-br_badge_web_generic.png';
+import AppleBadge from 'assets/pt-br_badge_apple_generic.png';
+
 const data = [
   {
     id: 1,
@@ -50,9 +53,21 @@ export default function Banner() {
             Seja para contratar serviços logísticos ou para atender demandas de pedidos, Peggo é o app ideal.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Em breve para Android e iOS
+            {/*
+            <Button style={{ padding: 0 }} variant="whiteButton" aria-label="Get Started">
+               Teste para Android
             </Button>
+            */}
+
+            <a href=''>
+              <Image style={{ height: 65, marginRight: 15 }} src={AppleBadge} />
+            </a>
+
+            <a href=''>
+              <Image style={{ height: 65 }} src={AndroidBadge} />
+            </a>
+
+            {/*
             <>
               <ModalVideo
                 channel="youtube"
@@ -68,6 +83,7 @@ export default function Banner() {
                 <FaPlayCircle /> Assistir Vídeo
               </Button>
             </>
+            */}
           </Flex>
           {/*
           <Flex sx={styles.sponsorBox}>
