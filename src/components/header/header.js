@@ -23,17 +23,19 @@ export default function Header({ className }) {
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
-              <Link
-                activeClass="active"
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                key={i}
-              >
-                {label}
-              </Link>
+              
+                <Link
+                  activeClass="active"
+                  to={path}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  style={{ position: 'relative' }}
+                >
+                  <a style={{ position: 'absolute', top: -10, right: 0, left: 0, bottom: -10 }} key={i} href={`/${path}`}></a>
+                  {label}
+                </Link>
             ))}
           </Flex>
 

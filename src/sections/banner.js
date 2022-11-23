@@ -59,14 +59,13 @@ export default function Banner() {
             </Button>
             */}
 
-            <a href=''>
-              <Image style={{ height: 65, marginRight: 15 }} src={AppleBadge} />
-            </a>
+
 
             <a href=''>
-              <Image style={{ height: 65 }} src={AndroidBadge} />
+              <Image style={{ height: 65, marginRight: 20 }} src={AndroidBadge} />
             </a>
 
+            <Image style={{ height: 65, opacity: 0.5 }} src={AppleBadge} />
             {/*
             <>
               <ModalVideo
