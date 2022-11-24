@@ -33,7 +33,7 @@ export default function Header({ className }) {
                   duration={500}
                   style={{ position: 'relative' }}
                 >
-                  <a style={{ position: 'absolute', top: -10, right: 0, left: 0, bottom: -10 }} key={i} href={`/${path}`}></a>
+                  {/* <a style={{ position: 'absolute', top: -10, right: 0, left: 0, bottom: -10 }} key={i} href={`/${path}`}></a> */}
                   {label}
                 </Link>
             ))}
